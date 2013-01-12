@@ -5,8 +5,6 @@ local blockNum = arg[2]
 
 local TORCH_SLOT = 1
 
-mine(rowLength, blockNum)
-
 function layTorch()
   turtle.select(TORCH_SLOT)
   turtle.placeDown()
@@ -77,3 +75,4 @@ function mine(rowLength, blockNum)
   turtle.turnRight()
 end
 
+mine(rowLength, blockNum)
