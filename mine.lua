@@ -48,7 +48,7 @@ function mine(rowLength, blockNum)
       leftTurn()
     end
 
-    for j = 1, rowlength, 1 do
+    for j = 1, rowLength, 1 do
       digAll()
       turtle.forward()
 
@@ -61,7 +61,7 @@ function mine(rowLength, blockNum)
       end
     end
     rightTurn()
-    for j = 1, rowlength, 1 do
+    for j = 1, rowLength, 1 do
       digAll()
       turtle.forward()
     end
