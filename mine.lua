@@ -50,11 +50,11 @@ function mine(rowLength, blockNum)
 
     for j = 1, rowLength, 1 do
       digAll()
-      if i % 2 == 1 and j % 5 == 0 then
+      if i % 2 == 1 and j % 6 == 0 then
         layTorch()
       end
 
-      if i % 2 == 0 and (j == 3 or j == 8) then
+      if i % 2 == 0 and (j == 4 or j == 9) then
         layTorch()
       end
       turtle.forward()
