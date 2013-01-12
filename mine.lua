@@ -50,7 +50,7 @@ function mine(rowLength, blockNum)
 
     for j = 1, rowLength, 1 do
       digAll()
-      if i % 2 == 1 and j % 6 == 0 then
+      if i % 2 == 1 and (j == 6 or j == 11) then
         layTorch()
       end
 
