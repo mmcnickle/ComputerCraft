@@ -53,10 +53,6 @@ function mine(rowLength, blockNum)
       if i % 2 == 1 and j % 5 == 0 then
         layTorch()
       end
-
-      if i % 2 == 0 and j % 5 == 2 then
-        layTorch()
-      end
       turtle.forward()
     end
     rightTurn()
